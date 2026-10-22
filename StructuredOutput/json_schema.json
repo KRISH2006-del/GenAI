@@ -1,0 +1,25 @@
+{
+    "title": "Student",
+    "description": "A student with a name, age, email, and CGPA",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "The student's name"
+        },
+        "age": {
+            "type": "integer",
+            "description": "The student's age"
+        },
+        "email": {
+            "type": "string",
+            "format": "email",
+            "description": "The student's email address"
+        },
+        "cgpa": {
+            "type": "number",
+            "description": "The student's cumulative grade point average"
+        }
+    },
+    "required": ["name"]
+}
